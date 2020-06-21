@@ -1,0 +1,288 @@
+/*  Adapted from Roamness theme */
+
+body {
+    background-color: #ffffff;
+}
+
+.roam-topbar {
+    background-color: #ffffff;			
+}
+
+input#find-or-create-input:focus {
+    box-shadow: 0 0 0 1px #BFDDF9;/*Search box outline*/
+}
+
+span.bp3-icon-small.bp3-icon-star {
+    display: none;
+    visibility: hidden;
+}
+/* Header Styles .roam-body */
+.roam-app h1 {
+  color: #121212;
+  font-family: 'Avenir';
+}
+/*
+.roam-app h1 {
+color: #3d516d !important;
+font-weight: bold;
+font-size:24px;
+font-family: 'Avenir'
+}
+*/
+.roam-app h2 {
+/* styles page titling */
+color: #3d516d !important;
+font-weight: bold;
+font-size:44px;
+font-family: 'Avenir'
+}
+.roam-app h3 {
+/* styles page titling */
+color: #3d516d !important;
+font-weight: bold;
+font-family: 'Avenir'
+}
+
+div,
+textarea {
+  font-family: 'Avenir';
+  font-size: 14px;
+  color: #121212
+}
+
+.roam-highlight {
+    background-color: #BFDDF9;
+    
+}
+
+#right-sidebar > div {
+    background-color: #FAFDFF;/*EBF1F7*/
+    /*border-left: 1px solid #e5e5e5;*/
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #FAFDFF;
+    border-right: 1px #FFFFFF solid;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-body .roam-app .roam-sidebar-container > * {
+    background-color: #FAFDFF;
+    color: #121212;
+    box-shadow: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background-color: #FAFDFF;
+    color: #40A7F9;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  font-size: 14px;
+  color: #121212;
+  
+}
+/*Exernal links*/
+a {
+  	color: #205B8C;/*#60B4F9;*/
+}
+
+a:hover {
+    color: #068EF9;
+    text-decoration: none;
+}
+
+strong {
+    color: #0B2F4D;
+}
+
+em {
+    color: #0B2F4D;
+}
+
+.cm-s-default .cm-keyword {
+    color: #58B3FB;
+}
+
+.checkmark {
+    background: #ffffff;
+}
+
+.check-container input:checked ~ .checkmark {
+    background: #58B3FB;
+}
+
+.check-container input:checked ~ .checkmark:after {
+    border-color: #ffffff;
+}
+
+.rm-query {
+    border: 0.5px solid #58B3FB;
+    border-radius: 5px;
+}
+
+.rm-query .rm-query-title {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.rm-reference-main .rm-reference-item .rm-block-text {
+    font-size: 90%;
+}
+
+.rm-ref-page-view-title span {
+    color: #121212;
+    text-decoration: none;
+}
+
+#block-input {
+    background: #ffffff;
+}
+
+.roam-body #block-input > span > div {
+    background: #ffffff;
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #0A1C47;
+}
+
+.block-border-left {
+    border-left: 1px solid #ffffff;
+}
+
+.rm-reference-item {
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 1px solid #FFFFFF;/*e5e5e5*/
+    word-break: break-all;
+    background-color: #FAFDFF;
+}
+
+
+.rm-level3 {
+    color: #FDFAFADD; /*original: 7B7979DD, my attempt:090808DD*/
+}
+
+.rm-page-ref {
+    color: #121212;
+}
+
+.rm-page-ref-link-color {
+    color: #269EFD; /*darker blue, 40A7F9 249AF7*/
+  	font-weight: bold;
+}
+
+.rm-title-textarea {
+    font-size: 36px;
+}
+
+span.rm-page-ref[data-tag="TODO"] {
+    color: #ffffff;
+    background-color:  #04436F;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+
+span.rm-page-ref[data-tag="to read"] {
+    color: #ffffff;
+    background-color:  #8B9297;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+span.rm-page-ref[data-tag="to process"] {
+    color: #ffffff;
+    background-color:  #414648;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+/*
+span.rm-page-ref[data-tag="to process"] {
+    color: #ffffff;
+    background-color:  #94CAF4;
+    border: 1px #ffffff;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+*/
+span.rm-page-ref[data-tag="to write"] {
+    color: #ffffff;
+    background-color:  #0C0C0D;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+.roam-center {
+  --align-item: left;
+  flex-basis: 50% !important;
+}
+
+/* HIDE LOGO*/
+#roam-sidebar-logo {
+    display: none;
+}
+
+.rm-page-ref-brackets {
+    /*opacity: .1;*/
+  	display: none;
+}
+
+.roam-block-container {
+    max-width: 800px;
+}
+
+/* don't need "SHORTCUTS" heading */
+
+.starred-pages-wrapper .flex-h-box {
+  display: none;
+}
+
+/* Hide help button */
+#buffer {
+    visibility: hidden;
+}
+/* didn't seem to work. 
+.roam-bullet-closed {
+    background-color: #60B4F9 !important;
+}
+*/
+/* hashtags */
+.rm-page-ref-tag {
+    color: #A7D2FB !important;
+	padding: .1em .6em;
+}
+.rm-page-ref-tag:hover {
+color: #121212 !important;
+text-decoration: none;
+}
+
+/* Kanban Style */
+.kanban-board {
+background-color: #fff;
+}
+.kanban-card {
+background-color: white;
+margin: 8px;
+box-shadow: 0px 1px 2px #BFDDF9;
+padding: 10px;
+border-radius: 2px;
+line-height: 1.3em;
+}
+.kanban-title {
+text-align: center;
+font-weight: bold;
+padding-top: 6px;
+}
+.kanban-column {
+background-color: #BFDDF9;
+margin: 0px 4px 0px 4px;
+padding: 4px;
+min-width: 200px;
+border-radius: 3px;
+}
